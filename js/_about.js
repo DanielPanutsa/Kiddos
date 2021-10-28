@@ -1,4 +1,4 @@
-// Menu Link Active
+/* Menu Link Active */
 
 $(document).ready(function() {
     $("[href]").each(function() {
@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 });
 
-//Menu Burger
+/* Menu Burger */
 
 let eat = 0;
 let menuBurger = document.getElementById("header__burger");
