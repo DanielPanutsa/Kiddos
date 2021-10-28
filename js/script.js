@@ -35,7 +35,7 @@ window.addEventListener('scroll', function() {
 		document.getElementById('header__links').style.top = "55px";
 		document.getElementById('header__links').style.top = "55px !important";
 	};
-};
+});
 
 
 window.addEventListener('scroll', function() {

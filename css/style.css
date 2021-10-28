@@ -2039,3 +2039,17 @@ p {
 .overheader__text a:hover {
   color: #fff;
 }
+
+div.form__button.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 5;
+}
+
+input.form__button.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
