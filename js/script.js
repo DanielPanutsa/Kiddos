@@ -30,7 +30,7 @@ menuBurger.onclick = function(){
 
 // Scroll function of menu header and width > 767px
 
-function heightOfLinks(){
+window.addEventListener('scroll', function() {
 	if($(window).width() < 767) {
 		document.getElementById('header__links').style.top = "55px";
 		document.getElementById('header__links').style.top = "55px !important";
