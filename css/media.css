@@ -540,6 +540,10 @@
   .slider__text > span {
     margin-bottom: 16px;
   }
+
+  .section__forms {
+    height: 130vh;
+  }
 }
 /* Small phones */
 @media (max-width: 320px) {
