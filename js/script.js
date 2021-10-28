@@ -83,17 +83,6 @@ function text() {
 
 // End Slider
 
-//COLOR Blocks 
-
-/*window.addEventListener('scroll', function() {
-  if (document.documentElement.scrollTop > 20){
-     document.getElementById('block1').classList.add('opacity');
-     document.getElementById('block2').classList.add('opacity');
-     document.getElementById('block3').classList.add('opacity');
-     document.getElementById('block4').classList.add('opacity');
-	};
-}); */
-
 // Hover Event на учителях 
 
 function getLinkTeacher(i,x,y,z){
