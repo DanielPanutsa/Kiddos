@@ -389,10 +389,6 @@ p {
   height: auto;
   display: -ms-grid;
   display: grid;
-  /* Скроем элемент в начальном состоянии */
-  opacity: 0;
-  -webkit-transform: translateY(250px);
-          transform: translateY(250px);
   padding: 0 24px 24px 24px;
 }
 

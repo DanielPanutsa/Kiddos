@@ -337,9 +337,6 @@ p{
 .block_flex{
 	height: auto;
 	display: grid;
-	/* Скроем элемент в начальном состоянии */
-	opacity: 0;
-  transform: translateY(250px);
   padding: 0 24px 24px 24px;
 }
 .block{
