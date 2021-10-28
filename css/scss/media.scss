@@ -1,0 +1,467 @@
+/* SUPER Large desktops and laptops */
+@media screen and (min-width: 1600px) {
+	.container{
+		max-width: 1230px;
+	}
+	.section__photo{
+		height: inherit;
+	}
+	.section__footer{
+		height: inherit;
+	}
+}
+
+@media (max-width: 1400px) and (min-width: 1200px) {
+	.container{
+		max-width: 1230px;
+	}
+	.overheader{
+		&__contain{
+			padding: 0;
+			height: 100%;
+		}
+		&__email, &__telephone{
+			align-items: center;
+		}
+	}
+}
+
+@media (max-width:1400px){
+	.header__burger{
+		align-items: center;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container{
+		max-width: 1140px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.container{
+		max-width: 1050px;
+	}
+	.block-18{
+		min-width:150px;
+	}
+	.blocks__flex{
+		height: auto;
+	}
+	.footer{
+		&__block{
+			width: 100%;
+			flex-direction: column;
+			&__widgets{
+				flex-direction: row;
+				flex: none;
+			}
+		}
+		&__widget{
+		flex: none;
+    max-width: 50%;
+    min-width: 49%;
+	    & h2{
+	    	margin-top: 15px;
+	    }
+		}
+	}
+	.section__about__container .container{
+		padding: 0;
+	}
+	.section__about__container__text{
+		padding: 0;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 992px) {
+	.container{
+		max-width: 960px;
+		padding: 0px 15px;
+	}
+	.overheader{
+		&__contain{
+			padding: 0 10px;
+			height: 100%;
+		}
+		&__email, &__telephone{
+			align-items: center;
+		}
+	}
+	.section__about__table{
+		display: flex;
+    flex-direction: column;
+	}
+	.section__footer{
+		height: auto;
+	}
+	.header__links{
+		display: none;
+		z-index:60;
+		flex-direction: column;
+    position: absolute;
+    top: 101px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 15px 40px -15px rgba(30, 170, 241, 0.5);
+    & a{
+    	margin: 0;
+    	padding: 10px 20px;
+    	&:hover, &:active{
+    		background-color: #1eaaf1;
+    		color: #fff;
+    	}
+    }
+	}
+	.promo__title{
+		font-size: 40px;
+	}
+	.header__burger{
+		display: flex;
+	}
+	.separator__bg{
+		background-size: cover;
+    background-position: 50% -25px;
+    background-attachment: scroll;
+	}
+	.section__blocks__teachers{
+		display: grid;
+    grid-template-columns: 1fr 1fr;
+	}
+	.courses__block{
+		flex-direction: column;
+	}
+	.courses__block .img {
+    width: 100%;
+    height: 300px;
+   }
+  .courses__block .text {
+    width: 100%;
+  }
+  .section__pricing, .section__blog{
+  	padding:56px 0;
+  }
+  .section__pricing .row{
+  	display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .block__pricing{
+  	width: 100%;
+  	flex: none;
+    max-width: none;
+  }
+  .row.form__contain{
+  	height: inherit;
+  }
+  .form__container{
+  	position: relative;
+  	height: inherit;
+  }
+
+  .section__forms{
+  	height: 650px;
+  	& .container{
+  		height: inherit;
+  	}
+  }
+}
+  
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+	#header{
+		height: 55px;
+	}
+	.container{
+		max-width: 720px;
+	}
+	.footer__block__widgets{
+		flex-direction: column;
+		width: 100%;
+	}
+	.footer__widget{
+		max-width: inherit;
+    min-width: auto;
+	}
+	.section__footer{
+		height: auto;
+	}
+	.overheader{
+		padding: 8px 0;
+		height: 120px;
+		&__address{
+			align-self: auto;
+		}
+		&__contain{
+			flex-direction: column;
+		}
+	}
+	.header{
+		&__contain{
+			height: 55px;
+		}
+	}
+	.blocks__flex{
+		display: flex;
+		flex-direction: column;
+	}
+	.block_flex{
+		padding: 0px 24px 36px 24px;
+	}
+	.section__about_box{
+		display: flex;
+		flex-direction: column;
+	}
+	.separator{
+		&__blocks{
+			flex-direction: column ;
+		}
+		&__block2{
+			margin: 0 auto;
+		}
+		&__bg{
+			background-position: 50% 0px;
+		}
+	}
+	.section__heading h2{
+		font-size: 28px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.slider{
+		padding: 0;
+	}
+	.counter__block{
+		padding: 0;
+	}
+	.con-12k{
+		width: inherit;
+		padding: 0;
+		max-width:100%;
+	}
+	.slick-list.draggable{
+		max-width: 100%;
+	}
+	.slider__carousel{
+		padding:0;
+	}
+	.section{
+		&__blocks__teachers{
+			display: flex;
+			flex-direction: column;
+			&.teacher__page{
+				flex-direction: column;
+			}
+		}
+	}
+	.faded ul{
+		display: inline-flex;
+		justify-content: center;
+		& li{
+			width: 20px;
+		}
+	}
+	.section__courses .row{
+		flex-direction: column;
+	}
+
+	.courses{
+		&__block{
+			flex: none;
+			max-width:100%;
+		}
+	}
+	.counter{
+		&__blocks{
+			flex-direction: column;
+		}
+	}
+	.section{
+		&__forms{
+			height: 110vh;
+			position: relative;
+			width: 100%;
+			& .container{
+				max-width: none;
+				height: inherit;
+			}
+		}
+	}
+	.slider{
+		padding: 0;
+	}
+
+	.form{
+		&__contain{
+			max-width:100%;
+			width: 100%;
+		}
+		&__group{
+			flex-direction: column;
+		}
+	}
+	.section__pricing{
+		& .row{
+			display: flex;
+		}
+	}
+
+	.block__pricing{
+		&:hover{
+		box-shadow: 0px 15px 10px -15px #111;
+		}
+	}
+	.section__blog .row{
+		display: flex;
+		flex-direction: column;
+	}
+	.blog__block{
+		width: 100%;
+	}
+	.section__photo{
+		flex-direction: column;
+	}
+	.photo__img{
+		width: 100%;
+	}
+	.form__container{
+		padding: 48px 15px;
+		width: 100%;
+	}
+	.contacts_blocks{
+		flex-direction: column;
+	}
+	.section__map .row{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 576px) {
+	.container{
+		max-width: 540px;
+	}
+	.overheader{
+		height: 160px;
+		&__text{
+			width: calc(100% - 40px);
+		}
+	}
+	.con-12k{
+		max-width: 460px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.slider__item{
+		width: 440px;
+	}
+	.slider__img{
+		margin-right: 5px;
+	}
+	.block__pricing.img{
+		background-position: center;
+	}
+}
+  
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.con-12k{
+		max-width: 100%;
+		position:relative;
+	}
+	.slider__carousel{
+		position: relative;
+		max-width: 100%;
+	}
+	.qoutte_div{
+		display: none;
+	}
+	.slider{
+		max-width: 100%;
+		padding: 0px 5px;
+	}
+	.slider__item{
+		flex-direction: column;
+		max-width: 400px;
+	}
+	.slider__img{
+		margin: 0 auto;
+		margin-bottom: 5px;
+	}
+	.slider__text{
+		text-align: center;
+		flex-direction: column-reverse;
+		& > span{
+			margin-bottom: 16px;
+		}
+	}
+}
+
+@media (max-width: 412px) {}
+  
+/* Small phones */
+@media (max-width: 320px) {
+	.overheader{
+		height: 160px;
+		&__text{
+			width: calc(100% - 40px);
+		}
+	}
+	.section__heading > h2{
+		flex-wrap: wrap;
+    font-size: 28px;
+	}
+	.header__links{
+		top: 55px;
+	}
+	.con-12k{
+		max-width: 300px;
+		padding: 0;
+	}
+	.slick-list.draggable{
+		max-width:300px;
+	}
+	.slider__item{
+		width: 320px;
+	}
+	.section__forms{
+		height: 160vh;
+	}
+	.block__pricing{
+		padding: 30px 0;
+	}
+} 
+
+@media (max-width: 287px) {
+	.con-12k{
+		max-width: 250px;
+		padding: 0;
+	}
+	.slick-list.draggable{
+		max-width: 250px;
+	}
+	.section__about__container{
+		width: 100%;
+		padding: 0;
+		margin-top: 40px;
+		&__text{
+			& > h2{
+				text-align: center;
+			}
+		}
+	}
+	.con-12k{
+		max-width: 200px;
+		padding: 0;
+	}
+	.slick-list.draggable{
+		max-width:200px;
+	}
+	.slider__item{
+		width: 210px;
+		flex-direction: column;
+		padding: 0px 20px;
+	}
+}
