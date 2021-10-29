@@ -1885,6 +1885,7 @@ p {
           align-items: center;
 }
 .wall__text h2 {
+  text-align: center;
   font-size: 40px;
   display: block;
   font-weight: 900;
