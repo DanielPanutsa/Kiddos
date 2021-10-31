@@ -547,7 +547,7 @@
 }
 @media (max-width: 375px) {
   .section__counter {
-    background-position: 20% 10%;
+    background-position: 0;
   }
 }
 /* Small phones */
