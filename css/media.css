@@ -545,6 +545,11 @@
     height: 130vh;
   }
 }
+@media (max-width: 375px) {
+  .section__counter {
+    background-position: 0% 0%;
+  }
+}
 /* Small phones */
 @media (max-width: 320px) {
   .overheader {
