@@ -550,9 +550,9 @@
   }
 }
 @media (max-width: 375px) {
-  .section__counter {
-    background-position: 2% 20%;
-  }
+  /*.section__counter{
+  	background-position: 2% 20%;
+  }*/
 }
 /* Small phones */
 @media (max-width: 320px) {
@@ -592,6 +592,11 @@
 
   .block__pricing {
     padding: 30px 0;
+  }
+
+  #social1:hover, #social2:hover, #social3:hover, #social4:hover, #social5:hover, #social6:hover, #social7:hover, #social8:hover {
+    opacity: 1;
+    margin-top: -10px;
   }
 }
 @media (max-width: 287px) {
