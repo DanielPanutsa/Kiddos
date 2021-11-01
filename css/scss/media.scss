@@ -174,6 +174,9 @@
 	#header{
 		height: 55px;
 	}
+	.header__links{
+		top: 55px;
+	}
 	.container{
 		max-width: 720px;
 	}
@@ -404,7 +407,7 @@
 
 @media (max-width: 375px) {
 	.section__counter{
-		background-position: 0% 20%;
+		background-position: 2% 20%;
 	}
 }
   
